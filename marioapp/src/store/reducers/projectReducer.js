@@ -6,7 +6,7 @@ const initState = {
     ]
 };
 
-const projectReducaer = (state = initState, action) => {
+const projectReducer = (state = initState, action) => {
     switch(action.type) {
         case 'CREATE_PROJECT':
             console.log('create project', action.project)
@@ -14,4 +14,4 @@ const projectReducaer = (state = initState, action) => {
     return state;
 }
 
-export default projectReducaer;
+export default projectReducer;

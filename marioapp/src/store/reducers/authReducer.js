@@ -1,7 +1,7 @@
 const initState = {};
 
-const authReducaer = (state = initState, action) => {
+const authReducer = (state = initState, action) => {
     return state;
 }
 
-export default authReducaer;
+export default authReducer;
